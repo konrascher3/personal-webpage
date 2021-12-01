@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        * {
-            border: 1px solid magenta;
-        }
-
-    </style>
+  <!-- <style>
+    * {
+      border: 1px solid magenta;
+    }
+  </style> -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,81 +13,97 @@
   </head>
   <body>
     <div class="wrapper">
-        <header>
-          <nav>
-            <div class="title__name"><h1>Konrad Scherb</h1></div>
-            <div class="nav_elements">
-              <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Biography</a></li>
-              </ul>
+      <header>
+        <nav class="navbar">
+          <div class="navbar__fullName">
+            <h1>Konrad Scherb</h1>
+          </div>
+          <div class="navbar_navElements">
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Biography</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="hero">
+          <div class="hero__image">
+            <img src="#" alt="Profile photo Konrad Scherb" />
+          </div>
+          <div class="hero__description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nam
+              cum suscipit necessitatibus, fugiat modi natus, ullam cupiditate
+              eaque corporis consectetur placeat illo quisquam quos veniam
+              exercitationem nisi asperiores saepe.
+            </p>
+          </div>
+        </div>
+        <div class="tags">
+          <div class="tags__techStack">
+            <h2>Tech Stack</h2>
+          </div>
+          <div class="tags_skills">
+            <h2>Skills</h2>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact__number">
+            <h2>Num:</h2>
+            <h2>0175 123 456 78</h2>
+          </div>
+          <div class="contact__email">
+            <h2>Mail:</h2>
+            <h2>Konrad.Scherb@gmx.de</h2>
+          </div>
+        </div>
+        <div class="socials">
+          <div class="socials__gitHub">
+            <div class="sitePreview">
+              <img src="#" alt="Preview GitHub" />
             </div>
-          </nav>
-          <main class="profile">
-            <div class="profile__photo">
-                <img src="#" alt="Profile photo Konrad Scherb">
+            <h2>GitHub</h2>
+          </div>
+          <div class="socials__codepen">
+            <div class="sitePreview">
+              <img src="#" alt="Preview Codepen" />
             </div>
-            <div class="profile__photoDescription">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nam cum suscipit necessitatibus, fugiat modi natus, ullam cupiditate eaque corporis consectetur placeat illo quisquam quos veniam exercitationem nisi asperiores saepe.</p>
+            <h2>Codepen</h2>
+          </div>
+          <div class="socials__linkedIn">
+            <div class="sitePreview">
+              <img src="#" alt="Preview LinkedIn" />
             </div>
-            <div class="profile__tags">
-                <div class="profile__tags__interests">
-                    <h2>My interests</h2>
-                </div>
-                <div class="profile__tags__skills">
-                    <h2>My skills</h2>
-                </div>
-            </div>
-            <div class="profile__contactInfo">
-                <div class="profile__contactInfo__number">
-                    <h2>Num:</h2>
-                    <h2>0175 123 456 78</h2>
-                </div>
-                <div class="profile__contactInfo__email ">
-                    <h2>Mail:</h2>
-                    <h2>Konrad.Scherb@gmx.de</h2>
-                </div>
-            </div>
-            <div class="profile__linksSocials">
-                <div class="profile__linkSocials__gitHub">
-                    <div class="sitePreview">
-                        <img src="#" alt="Site-preview GitHub">
-                    </div>
-                    <h2>GitHub</h2>
-                </div>
-                <div class="profile__linkSocials__codepen">
-                    <div class="sitePreview">
-                        <img src="#" alt="Site-preview Codepen">
-                    </div>
-                    <h2>Codepen</h2>
-                </div>
-                <div class="profile__linkSocials__linkedIn">
-                    <div class="sitePreview">
-                        <img src="#" alt="Site-preview LinkedIn">
-                    </div>
-                    <h1>LinkedIn</h1>
-                </div>
-            </div>
-            <div class="profile__aboutMe">
-                <h2>About me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor sapiente enim totam unde. Facilis enim atque officia soluta praesentium necessitatibus sunt eum natus rerum! Ipsum minima eligendi explicabo aut.
-                Reprehenderit officia labore, quos dolorem neque repellendus sint, aliquam a quis sunt vero tempore perspiciatis dolor nihil fugiat magnam autem doloremque animi esse enim. Omnis voluptas aperiam soluta hic at?</p>
-            </div>
-            <div class="profile__cv">
-                <h2>CV</h2>
-                <ul>
-                    <li>2021 - heute</li>
-                    <li>Lorem, ipsum dolor.</li>
-                    <li>2016 - 2021</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>2015 - 2016</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>201 - 2015</li>
-                    <li>Lorem, ipsum dolor.</li>
-                </ul>
-            </div>
-          </main>
-          </header>
-          </body>
+            <h1>LinkedIn</h1>
+          </div>
+        </div>
+        <div class="aboutMe">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor
+            sapiente enim totam unde. Facilis enim atque officia soluta
+            praesentium necessitatibus sunt eum natus rerum! Ipsum minima
+            eligendi explicabo aut. Reprehenderit officia labore, quos dolorem
+            neque repellendus sint, aliquam a quis sunt vero tempore
+            perspiciatis dolor nihil fugiat magnam autem doloremque animi esse
+            enim. Omnis voluptas aperiam soluta hic at?
+          </p>
+        </div>
+        <!-- <div class="profile__cv">
+          <h2>CV</h2>
+          <ul>
+            <li>2021 - heute</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>2016 - 2021</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>2015 - 2016</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>201 - 2015</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ul>
+        </div> -->
+      </main>
     </div>
+  </body>
 </html>
