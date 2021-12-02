@@ -20,8 +20,12 @@ body {
   background: #e5e5e5;
 }
 
-.noMargin {
+.no-margin {
   margin: 0;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .wrapper {
@@ -36,15 +40,46 @@ button {
 }
 
 .icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  margin: 0 0 -12px -12px;
+
+  border-radius: 50%;
+  background: none;
+  color: #00a2f5;
+}
+
+.icon-button:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.icon-button:active {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.socialCard__linkButton {
+  height: 1em;
+  width: 1em;
 }
 
 /* Link styling */
 
 .link {
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .link--light {
-  background-color: turquoise;
+  color: #6f6f6f;
 }
 
 /* Social Cards */
@@ -66,6 +101,10 @@ button {
 .socialCard {
   background: #fff;
   border-radius: 16px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .socialCard + .socialCard {
@@ -73,14 +112,11 @@ button {
 }
 
 .socialCard__logo {
-  width: 128px;
-  height: 128px;
-  border-radius: 16px;
+  width: 120px;
+  height: 120px;
 }
 
 .socialCard__title {
-  background-color: yellow;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -91,19 +127,18 @@ button {
 }
 
 .socialCard__description {
-  background-color: pink;
+  /* background-color: pink;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 20px; */
 }
 
 .socialCard__accountName {
-  background-color: brown;
+  /* background-color: brown;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 14px; */
 }
 
 .socialCard__linkButton {
-  background-color: tomato;
   background: none;
   border: 0;
   padding: 0;
