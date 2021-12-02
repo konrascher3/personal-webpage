@@ -17,6 +17,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  background: #e5e5e5;
 }
 
 .noMargin {
@@ -24,5 +25,88 @@ body {
 }
 
 .wrapper {
-  margin: 1rem;
+  margin: 0.1rem;
+}
+
+/* Button styling */
+
+button {
+  background: none;
+  border: none;
+}
+
+.icon-button {
+}
+
+/* Link styling */
+
+.link {
+}
+
+.link--light {
+  background-color: turquoise;
+}
+
+/* Social Cards */
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials__headline {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 42.19px;
+
+  color: #202020;
+}
+
+.socialCard {
+  background: #fff;
+  border-radius: 16px;
+}
+
+.socialCard + .socialCard {
+  margin-top: 1rem;
+}
+
+.socialCard__logo {
+  background-color: green;
+  width: 128px;
+  height: 128px;
+  border-radius: 16px;
+}
+
+.socialCard__title {
+  background-color: yellow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #202020;
+}
+
+.socialCard__description {
+  background-color: pink;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.socialCard__accountName {
+  background-color: brown;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.socialCard__linkButton {
+  background-color: tomato;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: #00a2f5;
 }
