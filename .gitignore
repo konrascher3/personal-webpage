@@ -104,6 +104,7 @@ dist
 .tern-port
 
 # Various
+.bs.js
 .editorconfig
 .eslintrc.js
 package-lock.json
