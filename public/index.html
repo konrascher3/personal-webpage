@@ -10,16 +10,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&display=swap" rel="stylesheet"> 
     <title>My personal webpage</title>
   </head>
-  <body>
-    <div class="wrapper">
+  <body class="no-margin">
+
       <!-- Header -->
       <header>
         <div class="fullName">
@@ -27,21 +27,23 @@
         </div>
         <!-- Navbar -->
         <nav class="navbar">
-          <div class="navbar_navElements">
-            <ul>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Biography</a></li>
+          <div class="navbar__navElements">
+            <ul class="no-padding">
+              <!-- TODO: Add more tap-space for accessability! -->
+              <li class="link__nav"><a href="#">Contact</a></li>
+              <li class="link__nav"><a href="#">Biography</a></li>
             </ul>
           </div>
         </nav>
       </header>
+      <div class="wrapper">
       <!-- Start main section -->
       <main>
         <!-- Hero section -->
         <div class="hero">
-          <div class="hero__image">
+          <!-- <div class="hero__image">
             <img src="#" alt="Profile photo Konrad Scherb" />
-          </div>
+          </div> -->
           <div class="hero__description">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nam
@@ -61,14 +63,14 @@
           </div>
         </div>
         <!-- Contact section -->
-        <div class="contact">
-          <div class="contact__number">
+        <div class="contactCard">
+          <div class="contactCard__number">
             <h2>Num:</h2>
-            <h2>0175 123 456 78</h2>
+            <h3>0175 123 456 78</h3>
           </div>
-          <div class="contact__email">
+          <div class="contactCard__email">
             <h2>Mail:</h2>
-            <h2>Konrad.Scherb@gmx.de</h2>
+            <h3>Konrad.Scherb@gmx.de</h3>
           </div>
         </div>
         <!-- Socials section -->

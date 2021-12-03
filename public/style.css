@@ -1,9 +1,10 @@
 *,
 *::before,
 *::after {
-  /* margin: 0; */
-  /* padding: 0; */
+  margin: 0; 
+  padding: 0;  
   box-sizing: border-box;
+  /* border: 1px solid magenta; */
 }
 
 :root {
@@ -15,9 +16,13 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 16px;
-  background: #e5e5e5;
+  background: #a5a4ce;
+}
+
+.wrapper {
+  padding: 0 0.5em 0 0.5em;
 }
 
 .no-margin {
@@ -30,6 +35,50 @@ body {
 
 .wrapper {
   margin: 0.1rem;
+}
+
+/* Header Styling */
+
+header {
+  color: #fff;
+  
+}
+
+h1 {
+  background-color: #3465a4;
+  font-family: 'Bitter', serif;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 6px double #fff;
+  box-shadow: 0 0 0 3px #3465a4, 0rem .9rem 3px -5px rgba(0,0,0,.5);
+}
+
+/* Navbar Styling */
+
+.navbar {
+  border-left: 6px double rgba(255, 255, 255, 0);
+  border-right: 6px double rgba(255, 255, 255, 0);
+  background-color: #c0c0c0;
+  padding: 0rem 1rem;
+  color: #202020;
+  margin: 1.125rem 0 .5rem 0;
+}
+
+.navbar__navElements ul {
+  gap: 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+.link__nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+}
+
+.link__nav a:hover {
+  background-color: #0000ff;
+  color: #fff;
 }
 
 /* Button styling */
@@ -82,6 +131,13 @@ button {
   color: #6f6f6f;
 }
 
+.link__nav {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Contact Card */
+
 /* Social Cards */
 
 .socials {
@@ -98,7 +154,7 @@ button {
   color: #202020;
 }
 
-.socialCard {
+.socialCard, .contactCard {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
