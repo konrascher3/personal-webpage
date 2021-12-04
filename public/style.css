@@ -22,7 +22,8 @@ body {
 }
 
 .wrapper {
-  padding: 0 0.5em 0 0.5em;
+  /* padding: 0 0.5em 0 0.5em; */
+  /* margin: 0.1rem; */
 }
 
 .no-margin {
@@ -31,10 +32,6 @@ body {
 
 .no-padding {
   padding: 0;
-}
-
-.wrapper {
-  margin: 0.1rem;
 }
 
 /* Header Styling */
@@ -48,7 +45,7 @@ h1 {
   background-color: #3465a4;
   font-family: 'Bitter', serif;
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   border: 6px double #fff;
   box-shadow: 0 0 0 3px #3465a4, 0rem .9rem 3px -5px rgba(0,0,0,.5);
 }
@@ -61,7 +58,7 @@ h1 {
   background-color: #c0c0c0;
   padding: 0rem 1rem;
   color: #202020;
-  margin: 1.125rem 0 .5rem 0;
+  margin: 1.5rem 0 1rem 0;
 }
 
 .navbar__navElements ul {
@@ -136,7 +133,50 @@ button {
   list-style-type: none;
 }
 
-/* Contact Card */
+/* Info card styling */
+
+.info-card {
+  padding: .5em;
+  border: 6px double #fff;
+  background: silver;
+  box-shadow: 0rem .9rem 3px -5px rgba(0,0,0,.5);
+  margin: 1.5rem 0 1rem 0;
+}
+
+.info-card__description {
+  padding: 0 .7em .5em .7em;
+  text-align: justify;
+}
+
+.info-card__container {
+  padding: 0 0.5em 0.5em 0.5em;
+}
+
+/* Info Card Table styling */
+
+.info-card__table {
+
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+  gap: .1em;
+}
+
+td {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.content-row {
+  position: relative;
+}
 
 /* Social Cards */
 
